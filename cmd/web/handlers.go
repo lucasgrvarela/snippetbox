@@ -6,9 +6,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/julienschmidt/httprouter"
 	"github.com/lucasgrvarela/snippetbox/internal/models"
 	"github.com/lucasgrvarela/snippetbox/internal/validator"
+
+	"github.com/julienschmidt/httprouter"
 )
 
 func (app *application) home(w http.ResponseWriter, r *http.Request) {
