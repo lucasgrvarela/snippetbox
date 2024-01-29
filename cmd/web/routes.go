@@ -16,6 +16,8 @@ func (app *application) routes() http.Handler {
 		app.notFound(w)
 	})
 
+	router.HandlerFunc(http.MethodGet, "/ping", ping)
+
 	fileServer := http.FileServer(http.FS(ui.Files))
 	router.Handler(http.MethodGet, "/static/*filepath", fileServer)
 
