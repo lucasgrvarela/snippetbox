@@ -4,6 +4,14 @@ It's a web application which lets people paste and share snippets of text — a 
 
 Based on the awesome [Let's Go book from Alex Edwards](https://lets-go.alexedwards.net)
 
-![home page](home.png)
+### Home Page
+![home page](readme/home.png)
 
-![snippet create example](snippet-create.png)
+### Snippet creation example
+![snippet create example](readme/snippet-create.png)
+
+### Snippet example
+![snippet example](readme/snippet.png)
+
+### Signup form with validation
+![signup](readme/signup.png)
